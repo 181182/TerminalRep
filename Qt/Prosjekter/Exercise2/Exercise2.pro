@@ -25,7 +25,21 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    hangmanwidget.cpp \
+    hangmanlogic.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    hangmanwidget.h \
+    hangmanlogic.h
+
+DISTFILES += \
+    ../../../Downloads/Images/hangman0.png \
+    ../../../Downloads/Images/hangman1.png \
+    ../../../Downloads/Images/hangman2.png \
+    ../../../Downloads/Images/hangman3.png \
+    ../../../Downloads/Images/hangman4.png \
+    ../../../Downloads/Images/hangman5.png \
+    ../../../Downloads/Images/hangman6.png \
+    ../../../Downloads/Images/hangman7.png

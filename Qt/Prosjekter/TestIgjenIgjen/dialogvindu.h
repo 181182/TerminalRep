@@ -2,11 +2,20 @@
 #define DIALOGVINDU_H
 
 #include <QObject>
+#include <QMessageBox>
 
-class DialogVindu
+
+class DialogVindu : public QObject
 {
+    QMessageBox box;
 public:
-    DialogVindu();
+    explicit DialogVindu(QObject *parent = nullptr);
+
+public slots:
+    void opneVindu(int i);
+
+signals:
+    void oppdater();
 };
 
 #endif // DIALOGVINDU_H

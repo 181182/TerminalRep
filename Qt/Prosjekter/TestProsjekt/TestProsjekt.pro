@@ -25,7 +25,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    testwidget.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    testwidget.h
+
+DISTFILES += \
+    ../../../Downloads/CybuEaUVIAAF_HV.jpg

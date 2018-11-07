@@ -25,7 +25,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    minwidget.cpp \
+    dialogvindu.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    minwidget.h \
+    dialogvindu.h
